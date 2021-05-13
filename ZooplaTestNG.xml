@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ZooplaHomePage">
+    <test name="HomePageFunctionality">
+        <classes>
+            <class name="com.zoopla.testcases.HomePageFunctionality">
+                <methods>
+                    <include name="getPropertyDetails_Testcase1"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
